@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  
+  .card {
+    box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    padding: 0.75rem 1.25rem;
+  }
+  
+  .form-floating > .form-control, 
+  .form-floating > .form-select {
+    height: calc(2.5rem + 2px);
+    padding: 0.5rem 0.75rem;
+  }
+  
+  .form-floating > label {
+    padding: 0.5rem 0.75rem;
+  }
+  
+  legend {
+    font-weight: 500;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  /* Custom styles to make the UI match the assignment screenshot */
+  .list-group-item.active {
+    z-index: 2;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  }
+  
+  .btn-group-sm>.btn, .btn-sm {
+    font-size: 0.8rem;
+  }
